@@ -1,0 +1,150 @@
+body {
+    background: #fafafa;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 32px 24px 24px 24px;
+}
+
+p {
+    text-align: left;
+    margin: 16px 0;
+    line-height: 1.7;
+    font-size: 1.08rem;
+}
+
+img {
+    display: block;
+    margin: 24px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.1rem;
+    margin: 24px 0 12px 0;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 18px 0 8px 0;
+    font-weight: 600;
+    color: #d2691e;
+}
+
+ol {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 20px;
+}
+
+ol li {
+    margin-bottom: 38px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+ol li p {
+    text-align: left;
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container-footer {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+    padding: 18px 0 0 0;
+    color: #888;
+    font-size: 0.98rem;
+    border-top: 1px solid #eee;
+}
+
+/* Destaques para subtítulos */
+section > p:first-child {
+    color: #d2691e;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 1.05rem;
+}
+
+main {
+    margin-top: 32px;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    margin: 8px 0 0 0;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.subtitulo-principal {
+    text-align: left;
+    width: 100%;
+    margin: 24px 0 0 0;
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: #d2691e;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .container, .container-footer {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    img {
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 900px) {
+    .principal-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+    .imagem-principal {
+        max-width: 100%;
+        min-width: 0;
+        margin: 0 auto;
+    }
+    .info-principal {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
